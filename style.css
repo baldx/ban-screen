@@ -1,0 +1,40 @@
+:root {
+    --connect-color: rgb(81, 82, 93);
+}
+
+* {
+    font-weight: 700;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background: rgb(10, 10, 10);
+    font-size: 16px;
+}
+
+.connection {
+    color: var(--connect-color, gray);
+    margin: 16px;
+}
+
+.container {
+    width: 700px;
+    height: 300px;
+    border: 2px solid yellow;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ban-message {
+    color: red;
+    font-size: 1.3rem;
+}
+
+.time {
+    color: white;
+}
