@@ -32,9 +32,28 @@ body {
 
 .ban-message {
     color: red;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
 .time {
     color: white;
 }
+
+.reason-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 16px;
+    font-size: 1.4rem;
+}
+
+.reason {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: aqua;
+}
+
